@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NEW MEMBER"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue"
+                android:fontFamily="@font/new_walt_disney"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="9dp"
+                android:hint="email"
+                android:textColorHint="@android:color/darker_gray"
+                android:background="@drawable/design"
+                android:fontFamily="@font/antaro"
+                android:id="@+id/new_email"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="9dp"
+                android:hint="password"
+                android:textColorHint="@android:color/darker_gray"
+                android:inputType="textPassword"
+                android:background="@drawable/design"
+                android:fontFamily="@font/antaro"
+                android:id="@+id/new_password"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Sign-Up"
+                android:textColor="@android:color/white"
+                android:background="@color/colorBlue"
+                android:id="@+id/new_signup"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="7dp"
+                android:text="Already have an account?"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue"
+                android:id="@+id/back_signin"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

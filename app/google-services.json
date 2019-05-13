@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "628934578006",
+    "firebase_url": "https://to-do-app-4bb04.firebaseio.com",
+    "project_id": "to-do-app-4bb04",
+    "storage_bucket": "to-do-app-4bb04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628934578006:android:6780a0796184c830",
+        "android_client_info": {
+          "package_name": "me.jennachoi.to_doapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628934578006-va1atk0aahl1a2b89320icrt282lgu9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5mz0ljSMM7VCiU1vsSOgKfgYnoqXGgz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628934578006-va1atk0aahl1a2b89320icrt282lgu9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

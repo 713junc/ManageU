@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="             UPDATE"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlue"
+                android:fontFamily="@font/kendal_type"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Your Change"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorRed"
+                android:fontFamily="@font/new_walt_disney"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="Title"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorBlue"
+                    android:fontFamily="@font/kendal_type"
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/antaro"
+                    android:id="@+id/edt_title_upd"
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="Content"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorBlue"
+                    android:fontFamily="@font/kendal_type"
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/antaro"
+                    android:id="@+id/edt_note_upd"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="Completed ?"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorBlue"
+                    android:fontFamily="@font/kendal_type"
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:hint="/100"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/antaro"
+                    android:id="@+id/edt_process"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@android:color/darker_gray"
+                        android:text="delete"
+                        android:textSize="15dp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="@font/kendal_type"
+                        android:id="@+id/btn_delete_upd"
+                        />
+
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorBlue"
+                        android:text="update"
+                        android:textSize="15dp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="@font/kendal_type"
+                        android:id="@+id/btn_update_upd"
+                        />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
